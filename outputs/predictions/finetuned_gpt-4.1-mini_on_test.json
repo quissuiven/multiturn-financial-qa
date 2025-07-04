@@ -1,0 +1,2924 @@
+[
+    {
+        "id": "Single_GRMN/2008/page_98.pdf-2",
+        "turn_program": [
+            "3.75",
+            "add(const_1, 3.75)",
+            "add(const_1, 3.75), exp(#0, 6.0)",
+            "add(const_1, 3.75), exp(#0, 6.0), multiply(18.47, #1)"
+        ],
+        "executed_answers": [
+            3.75,
+            4.75,
+            11485.81079,
+            212142.92531
+        ]
+    },
+    {
+        "id": "Double_AMT/2012/page_121.pdf",
+        "turn_program": [
+            "add(10.7, 10.4)",
+            "20",
+            "add(10.7, 10.4), divide(#0, 20)",
+            "8763",
+            "add(8763, 2332)",
+            "add(8763, 2332), add(#0, 26711)",
+            "add(8763, 2332), add(#0, 26711), add(#1, 21079)",
+            "57536",
+            "add(8763, 2332), add(#0, 26711), add(#1, 21079), divide(#2, 57536)"
+        ],
+        "executed_answers": [
+            21.1,
+            20.0,
+            1.055,
+            8763.0,
+            11095.0,
+            37806.0,
+            58885.0,
+            57536.0,
+            1.02345
+        ]
+    },
+    {
+        "id": "Single_UNP/2012/page_55.pdf-1",
+        "turn_program": [
+            "3280",
+            "3324",
+            "divide(3280, 3324)",
+            "divide(1807, 1510)",
+            "divide(3280, 3324), divide(1807, 1510), greater(#0, #1)"
+        ],
+        "executed_answers": [
+            3280.0,
+            3324.0,
+            0.98676,
+            1.19669,
+            "no"
+        ]
+    },
+    {
+        "id": "Single_AES/2002/page_46.pdf-1",
+        "turn_program": [
+            "subtract(17.84, 4.11)",
+            "60.15",
+            "41.30",
+            "subtract(17.84, 4.11), subtract(60.15, 41.30)",
+            "subtract(17.84, 4.11), subtract(60.15, 41.30), greater(#0, #1)"
+        ],
+        "executed_answers": [
+            13.73,
+            60.15,
+            41.3,
+            18.85,
+            "no"
+        ]
+    },
+    {
+        "id": "Single_UNP/2011/page_80.pdf-1",
+        "turn_program": [
+            "175",
+            "6.5%",
+            "multiply(175, 6.5%)",
+            "16",
+            "multiply(175, 6.5%), greater(#0, 16)"
+        ],
+        "executed_answers": [
+            175.0,
+            0.065,
+            11.375,
+            16.0,
+            "no"
+        ]
+    },
+    {
+        "id": "Double_CDW/2014/page_55.pdf",
+        "turn_program": [
+            "multiply(0.0425, const_1000)",
+            "greater(0.0675, 0.0425)"
+        ],
+        "executed_answers": [
+            42.5,
+            "yes"
+        ]
+    },
+    {
+        "id": "Double_PNC/2013/page_66.pdf",
+        "turn_program": [
+            "add(381, 210)",
+            "greater(28484, 28886)"
+        ],
+        "executed_answers": [
+            591.0,
+            "no"
+        ]
+    },
+    {
+        "id": "Single_MRO/2007/page_79.pdf-1",
+        "turn_program": [
+            "0.92",
+            "greater(0.24, 0.92)"
+        ],
+        "executed_answers": [
+            0.92,
+            "no"
+        ]
+    },
+    {
+        "id": "Double_ADBE/2011/page_112.pdf",
+        "turn_program": [
+            "subtract(31.81, 29.19)",
+            "subtract(31.81, 29.19), divide(#0, 29.19)",
+            "5156",
+            "-2208",
+            "greater(5156, -2208)"
+        ],
+        "executed_answers": [
+            2.62,
+            0.08976,
+            5156.0,
+            -2208.0,
+            "yes"
+        ]
+    },
+    {
+        "id": "Double_MAA/2017/page_89.pdf",
+        "turn_program": [
+            "12.2",
+            "6.9",
+            "divide(12.2, 6.9)",
+            "divide(12.2, 6.9), subtract(#0, const_1)",
+            "84.53",
+            "73.20",
+            "subtract(84.53, 73.20)",
+            "subtract(84.53, 73.20), divide(#0, 73.20)"
+        ],
+        "executed_answers": [
+            12.2,
+            6.9,
+            1.76812,
+            0.76812,
+            84.53,
+            73.2,
+            11.33,
+            0.15478
+        ]
+    },
+    {
+        "id": "Double_ETR/2016/page_403.pdf",
+        "turn_program": [
+            "14215",
+            "15794",
+            "add(14215, 15794)",
+            "add(14215, 15794), add(#0, 442)",
+            "add(14215, 15794), add(#0, 442), add(#1, 4737)",
+            "40",
+            "9.95",
+            "add(40, 9.95)"
+        ],
+        "executed_answers": [
+            14215.0,
+            15794.0,
+            30009.0,
+            30451.0,
+            35188.0,
+            40.0,
+            9.95,
+            49.95
+        ]
+    },
+    {
+        "id": "Double_HUM/2007/page_96.pdf",
+        "turn_program": [
+            "852353",
+            "51206",
+            "divide(852353, 51206)",
+            "3.4",
+            "0.6",
+            "add(3.4, 0.6)",
+            "add(3.4, 0.6), add(#0, 2.3)",
+            "add(3.4, 0.6), add(#0, 2.3), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            852353.0,
+            51206.0,
+            16.64557,
+            3.4,
+            0.6,
+            4.0,
+            6.3,
+            2.1
+        ]
+    },
+    {
+        "id": "Double_ETR/2017/page_19.pdf",
+        "turn_program": [
+            "6318",
+            "6179",
+            "subtract(6318, 6179)",
+            "subtract(6318, 6179), divide(#0, 6179)",
+            "238",
+            "6179",
+            "divide(238, 6179)"
+        ],
+        "executed_answers": [
+            6318.0,
+            6179.0,
+            139.0,
+            0.0225,
+            238.0,
+            6179.0,
+            0.03852
+        ]
+    },
+    {
+        "id": "Double_IP/2013/page_61.pdf",
+        "turn_program": [
+            "12.5",
+            "multiply(12.5, const_1000)",
+            "14810",
+            "multiply(12.5, const_1000), divide(#0, 14810)",
+            "11.6",
+            "13280",
+            "multiply(11.6, const_1000), divide(#0, 13280)"
+        ],
+        "executed_answers": [
+            12.5,
+            12500.0,
+            14810.0,
+            0.84402,
+            11.6,
+            13280.0,
+            0.87349
+        ]
+    },
+    {
+        "id": "Double_PM/2017/page_38.pdf",
+        "turn_program": [
+            "11503",
+            "10815",
+            "subtract(11503, 10815)",
+            "932",
+            "divide(932, 6.0)",
+            "divide(932, 13.4%)",
+            "divide(932, 13.4%), divide(#0, const_1000)"
+        ],
+        "executed_answers": [
+            11503.0,
+            10815.0,
+            688.0,
+            932.0,
+            155.33333,
+            6955.22388,
+            6.95522
+        ]
+    },
+    {
+        "id": "Double_ETR/2002/page_38.pdf",
+        "turn_program": [
+            "15.2",
+            "5.5",
+            "subtract(15.2, 5.5)",
+            "subtract(15.2, 5.5), divide(#0, 5.5)",
+            "subtract(10.8, 6.4)",
+            "6.4",
+            "subtract(10.8, 6.4), divide(#0, 6.4)"
+        ],
+        "executed_answers": [
+            15.2,
+            5.5,
+            9.7,
+            1.76364,
+            4.4,
+            6.4,
+            0.6875
+        ]
+    },
+    {
+        "id": "Double_RSG/2018/page_139.pdf",
+        "turn_program": [
+            "468.4",
+            "446.3",
+            "add(468.4, 446.3)",
+            "423.8",
+            "add(468.4, 446.3), add(#0, 423.8)",
+            "subtract(69.06, 63.84)",
+            "subtract(69.06, 63.84), divide(#0, 63.84)"
+        ],
+        "executed_answers": [
+            468.4,
+            446.3,
+            914.7,
+            423.8,
+            1338.5,
+            5.22,
+            0.08177
+        ]
+    },
+    {
+        "id": "Double_MRO/2011/page_37.pdf",
+        "turn_program": [
+            "subtract(95.11, 62.09)",
+            "62.09",
+            "subtract(95.11, 62.09), divide(#0, 62.09)",
+            "111.26",
+            "79.51",
+            "subtract(111.26, 79.51)",
+            "subtract(111.26, 79.51), divide(#0, 79.51)"
+        ],
+        "executed_answers": [
+            33.02,
+            62.09,
+            0.53181,
+            111.26,
+            79.51,
+            31.75,
+            0.39932
+        ]
+    },
+    {
+        "id": "Double_UNP/2006/page_33.pdf",
+        "turn_program": [
+            "118",
+            "145",
+            "add(118, 145)",
+            "88",
+            "add(118, 145), add(#0, 88)",
+            "add(118, 145), add(#0, 88), divide(#1, const_3)",
+            "subtract(145, 88)"
+        ],
+        "executed_answers": [
+            118.0,
+            145.0,
+            263.0,
+            88.0,
+            351.0,
+            117.0,
+            57.0
+        ]
+    },
+    {
+        "id": "Double_HFC/2011/page_92.pdf",
+        "turn_program": [
+            "subtract(774788, 556186)",
+            "556186",
+            "subtract(774788, 556186), divide(#0, 556186)",
+            "8.6",
+            "7.3",
+            "subtract(8.6, 7.3)",
+            "subtract(8.6, 7.3), divide(#0, 8.6)"
+        ],
+        "executed_answers": [
+            218602.0,
+            556186.0,
+            0.39304,
+            8.6,
+            7.3,
+            1.3,
+            0.15116
+        ]
+    },
+    {
+        "id": "Double_FRT/2006/page_133.pdf",
+        "turn_program": [
+            "divide(89564, 514177)",
+            "divide(89564, 514177), subtract(#0, const_1)",
+            "12807",
+            "12807",
+            "add(12807, 12807)",
+            "add(12807, 12807), add(#0, 12807)",
+            "add(12807, 12807), add(#0, 12807), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            0.17419,
+            -0.82581,
+            12807.0,
+            12807.0,
+            25614.0,
+            38421.0,
+            12807.0
+        ]
+    },
+    {
+        "id": "Double_NKE/2015/page_37.pdf",
+        "turn_program": [
+            "divide(919, 1573)"
+        ],
+        "executed_answers": [
+            0.58423
+        ]
+    },
+    {
+        "id": "Double_INTC/2016/page_33.pdf",
+        "turn_program": [
+            "divide(50.7, 60.3)",
+            "divide(31.5, 34.0)"
+        ],
+        "executed_answers": [
+            0.8408,
+            0.92647
+        ]
+    },
+    {
+        "id": "Single_DVN/2012/page_100.pdf-1",
+        "turn_program": [
+            "divide(100, 28)",
+            "840",
+            "divide(100, 28), multiply(#0, 840)"
+        ],
+        "executed_answers": [
+            3.57143,
+            840.0,
+            3000.0
+        ]
+    },
+    {
+        "id": "Single_IPG/2015/page_38.pdf-3",
+        "turn_program": [
+            "195.5",
+            "13.6",
+            "divide(195.5, 13.6)",
+            "divide(195.5, 13.6), divide(#0, const_4)"
+        ],
+        "executed_answers": [
+            195.5,
+            13.6,
+            14.375,
+            3.59375
+        ]
+    },
+    {
+        "id": "Double_ETR/2015/page_24.pdf",
+        "turn_program": [
+            "5735",
+            "5524",
+            "subtract(5735, 5524)",
+            "subtract(5735, 5524), divide(#0, 5524)",
+            "divide(135, 5735)"
+        ],
+        "executed_answers": [
+            5735.0,
+            5524.0,
+            211.0,
+            0.0382,
+            0.02354
+        ]
+    },
+    {
+        "id": "Single_OKE/2008/page_86.pdf-2",
+        "turn_program": [
+            "subtract(258800, 25171)",
+            "25171",
+            "subtract(258800, 25171), divide(#0, 25171)"
+        ],
+        "executed_answers": [
+            233629.0,
+            25171.0,
+            9.28167
+        ]
+    },
+    {
+        "id": "Double_GPN/2008/page_92.pdf",
+        "turn_program": [
+            "multiply(25, 20%)",
+            "subtract(45, 36)",
+            "subtract(45, 36), divide(#0, 36)"
+        ],
+        "executed_answers": [
+            5.0,
+            9.0,
+            0.25
+        ]
+    },
+    {
+        "id": "Single_AMT/2008/page_32.pdf-3",
+        "turn_program": [
+            "41.31",
+            "36.63",
+            "subtract(41.31, 36.63)",
+            "36.63",
+            "subtract(41.31, 36.63), divide(#0, 36.63)"
+        ],
+        "executed_answers": [
+            41.31,
+            36.63,
+            4.68,
+            36.63,
+            0.12776
+        ]
+    },
+    {
+        "id": "Single_UNP/2009/page_25.pdf-3",
+        "turn_program": [
+            "subtract(825, 487)",
+            "subtract(825, 487), divide(#0, 487)"
+        ],
+        "executed_answers": [
+            338.0,
+            0.69405
+        ]
+    },
+    {
+        "id": "Double_IPG/2015/page_37.pdf",
+        "turn_program": [
+            "subtract(674.0, 669.5)",
+            "subtract(674.0, 669.5), divide(#0, 669.5)",
+            "subtract(674.0, 669.5), divide(#0, 669.5), multiply(#1, const_100)",
+            "add(674.0, -202.8)",
+            "subtract(674.0, 202.8), add(#0, -472.8)"
+        ],
+        "executed_answers": [
+            4.5,
+            0.00672,
+            0.67214,
+            471.2,
+            -1.6
+        ]
+    },
+    {
+        "id": "Double_AAPL/2012/page_36.pdf",
+        "turn_program": [
+            "subtract(156508, 108249)",
+            "108249",
+            "subtract(156508, 108249), divide(#0, 108249)",
+            "subtract(43.9, 40.5)"
+        ],
+        "executed_answers": [
+            48259.0,
+            108249.0,
+            0.44581,
+            3.4
+        ]
+    },
+    {
+        "id": "Single_AOS/2003/page_23.pdf-2",
+        "turn_program": [
+            "subtract(34.6, 30.4)",
+            "30.4",
+            "subtract(34.6, 30.4), divide(#0, 30.4)"
+        ],
+        "executed_answers": [
+            4.2,
+            30.4,
+            0.13816
+        ]
+    },
+    {
+        "id": "Double_JPM/2010/page_132.pdf",
+        "turn_program": [
+            "16.8",
+            "17.0",
+            "divide(16.8, 17.0)"
+        ],
+        "executed_answers": [
+            16.8,
+            17.0,
+            0.98824
+        ]
+    },
+    {
+        "id": "Double_FRT/2007/page_137.pdf",
+        "turn_program": [
+            "subtract(96454, const_0)",
+            "subtract(-80258, const_0)"
+        ],
+        "executed_answers": [
+            96454.0,
+            -80258.0
+        ]
+    },
+    {
+        "id": "Single_IPG/2014/page_95.pdf-2",
+        "turn_program": [
+            "multiply(15563666, 9.70)",
+            "multiply(15563666, 9.70), divide(#0, const_1000000)"
+        ],
+        "executed_answers": [
+            150967560.2,
+            150.96756
+        ]
+    },
+    {
+        "id": "Single_WRK/2018/page_53.pdf-3",
+        "turn_program": [
+            "add(2420.9, -1298.9)",
+            "add(2420.9, -1298.9), add(#0, -755.1)"
+        ],
+        "executed_answers": [
+            1122.0,
+            366.9
+        ]
+    },
+    {
+        "id": "Double_STT/2012/page_42.pdf",
+        "turn_program": [
+            "subtract(55, 100)",
+            "100",
+            "subtract(55, 100), divide(#0, 100)",
+            "subtract(80, 100)",
+            "100",
+            "subtract(80, 100), divide(#0, 100)"
+        ],
+        "executed_answers": [
+            -45.0,
+            100.0,
+            -0.45,
+            -20.0,
+            100.0,
+            -0.2
+        ]
+    },
+    {
+        "id": "Single_AMT/2010/page_111.pdf-2",
+        "turn_program": [
+            "1197607",
+            "1188003",
+            "add(1197607, 1188003)",
+            "add(1197607, 1188003), add(#0, 98424)"
+        ],
+        "executed_answers": [
+            1197607.0,
+            1188003.0,
+            2385610.0,
+            2484034.0
+        ]
+    },
+    {
+        "id": "Single_RSG/2015/page_127.pdf-2",
+        "turn_program": [
+            "subtract(5.74, 5.27)",
+            "5.27",
+            "subtract(5.74, 5.27), divide(#0, 5.27)"
+        ],
+        "executed_answers": [
+            0.47,
+            5.27,
+            0.08918
+        ]
+    },
+    {
+        "id": "Single_ZBH/2013/page_49.pdf-1",
+        "turn_program": [
+            "subtract(38.4, 42.7)",
+            "subtract(38.4, 42.7), divide(#0, 42.7)"
+        ],
+        "executed_answers": [
+            -4.3,
+            -0.1007
+        ]
+    },
+    {
+        "id": "Single_AMT/2016/page_57.pdf-3",
+        "turn_program": [
+            "11595",
+            "2330",
+            "add(11595, 2330)",
+            "add(11595, 2330), add(#0, 4910)",
+            "add(11595, 2330), add(#0, 4910), add(#1, 6535)"
+        ],
+        "executed_answers": [
+            11595.0,
+            2330.0,
+            13925.0,
+            18835.0,
+            25370.0
+        ]
+    },
+    {
+        "id": "Single_PNC/2014/page_156.pdf-2",
+        "turn_program": [
+            ".5",
+            ".4",
+            "add(.5, .4)",
+            "add(.5, .4), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            0.5,
+            0.4,
+            0.9,
+            0.45
+        ]
+    },
+    {
+        "id": "Single_MRO/2014/page_22.pdf-1",
+        "turn_program": [
+            "3149",
+            "2536",
+            "add(3149, 2536)",
+            "1995",
+            "add(3149, 2536), add(#0, 1995)"
+        ],
+        "executed_answers": [
+            3149.0,
+            2536.0,
+            5685.0,
+            1995.0,
+            7680.0
+        ]
+    },
+    {
+        "id": "Double_L/2007/page_213.pdf",
+        "turn_program": [
+            "subtract(53, 70)",
+            "divide(1601, 35%)"
+        ],
+        "executed_answers": [
+            -17.0,
+            4574.28571
+        ]
+    },
+    {
+        "id": "Double_WRK/2018/page_53.pdf",
+        "turn_program": [
+            "add(755.1, 1298.9)",
+            "2420.9",
+            "subtract(2420.9, add(755.1, 1298.9))",
+            "subtract(2420.9, add(755.1, 1298.9)), divide(#0, 2420.9)",
+            "divide(740.7, 6415.2)"
+        ],
+        "executed_answers": [
+            2054.0,
+            2420.9,
+            "n/a",
+            "n/a",
+            0.11546
+        ]
+    },
+    {
+        "id": "Double_CMCSA/2004/page_30.pdf",
+        "turn_program": [
+            "divide(902, 3622)",
+            "divide(200, 3000)"
+        ],
+        "executed_answers": [
+            0.24903,
+            0.06667
+        ]
+    },
+    {
+        "id": "Single_AMT/2005/page_83.pdf-2",
+        "turn_program": [
+            "subtract(4739575, 3270329)",
+            "3270329",
+            "subtract(4739575, 3270329), divide(#0, 3270329)"
+        ],
+        "executed_answers": [
+            1469246.0,
+            3270329.0,
+            0.44927
+        ]
+    },
+    {
+        "id": "Double_LLY/2008/page_45.pdf",
+        "turn_program": [
+            "646.7",
+            "2320.7",
+            "divide(646.7, 2320.7)",
+            "divide(404.1, 2320.7)"
+        ],
+        "executed_answers": [
+            646.7,
+            2320.7,
+            0.27867,
+            0.17413
+        ]
+    },
+    {
+        "id": "Double_AON/2007/page_185.pdf",
+        "turn_program": [
+            "subtract(275, 317)",
+            "subtract(275, 317), divide(#0, 317)"
+        ],
+        "executed_answers": [
+            -42.0,
+            -0.13249
+        ]
+    },
+    {
+        "id": "Single_BLL/2007/page_87.pdf-2",
+        "turn_program": [
+            "5.7",
+            "3.2",
+            "subtract(5.7, 3.2)",
+            "subtract(5.7, 3.2), subtract(#0, 10.7)"
+        ],
+        "executed_answers": [
+            5.7,
+            3.2,
+            2.5,
+            -8.2
+        ]
+    },
+    {
+        "id": "Single_MO/2014/page_76.pdf-1",
+        "turn_program": [
+            "67",
+            "5",
+            "add(67, 5)",
+            "add(67, 5), add(#0, 1)",
+            "12",
+            "add(67, 5), add(#0, 1), add(#1, 12)"
+        ],
+        "executed_answers": [
+            67.0,
+            5.0,
+            72.0,
+            73.0,
+            12.0,
+            85.0
+        ]
+    },
+    {
+        "id": "Single_DVN/2014/page_85.pdf-2",
+        "turn_program": [
+            "divide(36, 45)",
+            "divide(36, 45), multiply(#0, const_100)"
+        ],
+        "executed_answers": [
+            0.8,
+            80.0
+        ]
+    },
+    {
+        "id": "Single_UNP/2010/page_55.pdf-1",
+        "turn_program": [
+            "3018",
+            "2666",
+            "add(3018, 2666)",
+            "3174",
+            "add(3018, 2666), add(#0, 3174)",
+            "add(3018, 2666), add(#0, 3174), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            3018.0,
+            2666.0,
+            5684.0,
+            3174.0,
+            8858.0,
+            2952.66667
+        ]
+    },
+    {
+        "id": "Single_PPG/2015/page_40.pdf-4",
+        "turn_program": [
+            "509",
+            "479",
+            "subtract(509, 479)",
+            "479",
+            "subtract(509, 479), divide(#0, 479)"
+        ],
+        "executed_answers": [
+            509.0,
+            479.0,
+            30.0,
+            479.0,
+            0.06263
+        ]
+    },
+    {
+        "id": "Single_MSI/2009/page_69.pdf-2",
+        "turn_program": [
+            "multiply(7008, 32%)",
+            "multiply(7729, 21%)",
+            "multiply(7008, 32%), multiply(7729, 21%), subtract(#0, #1)",
+            "multiply(7008, 32%), multiply(7729, 21%), subtract(#0, #1), divide(#2, #1)"
+        ],
+        "executed_answers": [
+            2242.56,
+            1623.09,
+            619.47,
+            0.38166
+        ]
+    },
+    {
+        "id": "Double_ETR/2016/page_444.pdf",
+        "turn_program": [
+            "subtract(39926, 33809)",
+            "subtract(39926, 33809), divide(#0, 33809)",
+            "subtract(33809, 2373)"
+        ],
+        "executed_answers": [
+            6117.0,
+            0.18093,
+            31436.0
+        ]
+    },
+    {
+        "id": "Single_MRO/2011/page_38.pdf-2",
+        "turn_program": [
+            "77.97",
+            "52.13",
+            "subtract(77.97, 52.13)",
+            "subtract(77.97, 52.13), divide(#0, 52.13)"
+        ],
+        "executed_answers": [
+            77.97,
+            52.13,
+            25.84,
+            0.49568
+        ]
+    },
+    {
+        "id": "Single_RSG/2008/page_114.pdf-2",
+        "turn_program": [
+            "9362.2",
+            "9244.9",
+            "subtract(9362.2, 9244.9)",
+            "subtract(9362.2, 9244.9), divide(#0, 9244.9)"
+        ],
+        "executed_answers": [
+            9362.2,
+            9244.9,
+            117.3,
+            0.01269
+        ]
+    },
+    {
+        "id": "Single_AMT/2005/page_83.pdf-1",
+        "turn_program": [
+            "subtract(3460526, 2273356)",
+            "subtract(3460526, 2273356), divide(#0, 2273356)"
+        ],
+        "executed_answers": [
+            1187170.0,
+            0.52221
+        ]
+    },
+    {
+        "id": "Single_AAP/2013/page_32.pdf-3",
+        "turn_program": [
+            "213.14",
+            "subtract(213.14, const_100)",
+            "150.51",
+            "subtract(213.14, const_100), subtract(150.51, const_100)",
+            "subtract(213.14, const_100), subtract(150.51, const_100), subtract(#0, #1)"
+        ],
+        "executed_answers": [
+            213.14,
+            113.14,
+            150.51,
+            50.51,
+            62.63
+        ]
+    },
+    {
+        "id": "Single_RE/2007/page_84.pdf-2",
+        "turn_program": [
+            "subtract(121.4, 39.0)",
+            "39.0",
+            "subtract(121.4, 39.0), divide(#0, 39.0)"
+        ],
+        "executed_answers": [
+            82.4,
+            39.0,
+            2.11282
+        ]
+    },
+    {
+        "id": "Double_WELL/2016/page_61.pdf",
+        "turn_program": [
+            "262",
+            "1313",
+            "divide(262, 1313)",
+            "15.8"
+        ],
+        "executed_answers": [
+            262.0,
+            1313.0,
+            0.19954,
+            15.8
+        ]
+    },
+    {
+        "id": "Single_IPG/2015/page_24.pdf-3",
+        "turn_program": [
+            "2140511",
+            "1126378",
+            "add(2140511, 1126378)",
+            "const_2",
+            "add(2140511, 1126378), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            2140511.0,
+            1126378.0,
+            3266889.0,
+            2.0,
+            1633444.5
+        ]
+    },
+    {
+        "id": "Single_GS/2013/page_193.pdf-1",
+        "turn_program": [
+            "72471",
+            "66977",
+            "subtract(72471, 66977)",
+            "subtract(72471, 66977), divide(#0, 66977)"
+        ],
+        "executed_answers": [
+            72471.0,
+            66977.0,
+            5494.0,
+            0.08203
+        ]
+    },
+    {
+        "id": "Single_PPG/2010/page_45.pdf-2",
+        "turn_program": [
+            "189",
+            "201",
+            "divide(189, 201)",
+            "divide(189, 201), multiply(#0, 189)"
+        ],
+        "executed_answers": [
+            189.0,
+            201.0,
+            0.9403,
+            177.71642
+        ]
+    },
+    {
+        "id": "Single_KIM/2014/page_108.pdf-2",
+        "turn_program": [
+            "add(8.3, 15.9)",
+            "add(8.3, 15.9), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            24.2,
+            12.1
+        ]
+    },
+    {
+        "id": "Double_ETFC/2013/page_84.pdf",
+        "turn_program": [
+            "142.4",
+            "1934.2",
+            "divide(142.4, 1934.2)",
+            "1791.8",
+            "142.4",
+            "divide(1791.8, 142.4)"
+        ],
+        "executed_answers": [
+            142.4,
+            1934.2,
+            0.07362,
+            1791.8,
+            142.4,
+            12.58287
+        ]
+    },
+    {
+        "id": "Single_PM/2014/page_67.pdf-1",
+        "turn_program": [
+            "add(750, 750)",
+            "add(750, 750), add(#0, 500)"
+        ],
+        "executed_answers": [
+            1500.0,
+            2000.0
+        ]
+    },
+    {
+        "id": "Single_UPS/2012/page_51.pdf-2",
+        "turn_program": [
+            "subtract(7216, 7073)",
+            "7216",
+            "subtract(7216, 7073), divide(#0, 7073)"
+        ],
+        "executed_answers": [
+            143.0,
+            7216.0,
+            0.02022
+        ]
+    },
+    {
+        "id": "Single_STT/2014/page_69.pdf-1",
+        "turn_program": [
+            "subtract(9.31, 8.42)",
+            "subtract(9.31, 8.42), multiply(#0, const_1000)"
+        ],
+        "executed_answers": [
+            0.89,
+            890.0
+        ]
+    },
+    {
+        "id": "Double_RCL/2013/page_17.pdf",
+        "turn_program": [
+            "71000",
+            "436000",
+            "divide(71000, 436000)",
+            "divide(3800, 2)"
+        ],
+        "executed_answers": [
+            71000.0,
+            436000.0,
+            0.16284,
+            1900.0
+        ]
+    },
+    {
+        "id": "Single_CNC/2006/page_37.pdf-4",
+        "turn_program": [
+            "subtract(343, 462)",
+            "462",
+            "subtract(343, 462), divide(#0, 462)"
+        ],
+        "executed_answers": [
+            -119.0,
+            462.0,
+            -0.25758
+        ]
+    },
+    {
+        "id": "Single_UNP/2015/page_35.pdf-3",
+        "turn_program": [
+            "subtract(7385, 6823)",
+            "subtract(7385, 6823), divide(#0, 6823)"
+        ],
+        "executed_answers": [
+            562.0,
+            0.08237
+        ]
+    },
+    {
+        "id": "Double_JPM/2010/page_128.pdf",
+        "turn_program": [
+            "346.1",
+            "347.2",
+            "divide(346.1, 347.2)",
+            "-403",
+            "divide(-403, -682)"
+        ],
+        "executed_answers": [
+            346.1,
+            347.2,
+            0.99683,
+            -403.0,
+            0.59091
+        ]
+    },
+    {
+        "id": "Single_PNC/2013/page_154.pdf-2",
+        "turn_program": [
+            "51512",
+            "51160",
+            "add(51512, 51160)",
+            "add(51512, 51160), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            51512.0,
+            51160.0,
+            102672.0,
+            51336.0
+        ]
+    },
+    {
+        "id": "Single_APD/2016/page_57.pdf-2",
+        "turn_program": [
+            "subtract(79.3, 137.5)",
+            "137.5",
+            "subtract(79.3, 137.5), divide(#0, 137.5)"
+        ],
+        "executed_answers": [
+            -58.2,
+            137.5,
+            -0.42327
+        ]
+    },
+    {
+        "id": "Single_GIS/2018/page_59.pdf-2",
+        "turn_program": [
+            "add(33.2, 21.3)",
+            "add(33.2, 21.3), add(#0, 1.9)",
+            "add(33.2, 21.3), add(#0, 1.9), add(#1, 2.0)"
+        ],
+        "executed_answers": [
+            54.5,
+            56.4,
+            58.4
+        ]
+    },
+    {
+        "id": "Single_IP/2014/page_66.pdf-1",
+        "turn_program": [
+            "multiply(const_2, const_1000)",
+            "3403",
+            "multiply(const_2, const_1000), divide(#0, 3403)"
+        ],
+        "executed_answers": [
+            2000.0,
+            3403.0,
+            0.58772
+        ]
+    },
+    {
+        "id": "Single_AON/2015/page_50.pdf-2",
+        "turn_program": [
+            "add(9, 46)",
+            "add(9, 46), divide(-7, #0)"
+        ],
+        "executed_answers": [
+            55.0,
+            -0.12727
+        ]
+    },
+    {
+        "id": "Double_AES/2010/page_225.pdf",
+        "turn_program": [
+            "657",
+            "15121",
+            "divide(657, 15121)",
+            "divide(953, 15121)"
+        ],
+        "executed_answers": [
+            657.0,
+            15121.0,
+            0.04345,
+            0.06302
+        ]
+    },
+    {
+        "id": "Single_AWK/2015/page_109.pdf-3",
+        "turn_program": [
+            "subtract(19, 26)",
+            "26",
+            "subtract(19, 26), divide(#0, 26)"
+        ],
+        "executed_answers": [
+            -7.0,
+            26.0,
+            -0.26923
+        ]
+    },
+    {
+        "id": "Double_LMT/2005/page_40.pdf",
+        "turn_program": [
+            "divide(2505, 3066)",
+            "divide(524, 3066)"
+        ],
+        "executed_answers": [
+            0.81703,
+            0.17091
+        ]
+    },
+    {
+        "id": "Double_ETFC/2012/page_85.pdf",
+        "turn_program": [
+            "1791.8",
+            "1934.2",
+            "divide(1791.8, 1934.2)",
+            "142.4",
+            "divide(142.4, 1934.2)"
+        ],
+        "executed_answers": [
+            1791.8,
+            1934.2,
+            0.92638,
+            142.4,
+            0.07362
+        ]
+    },
+    {
+        "id": "Single_ETR/2004/page_19.pdf-1",
+        "turn_program": [
+            "subtract(4244.0, 4214.5)",
+            "subtract(4244.0, 4214.5), divide(#0, 4214.5)"
+        ],
+        "executed_answers": [
+            29.5,
+            0.007
+        ]
+    },
+    {
+        "id": "Single_UNP/2010/page_55.pdf-3",
+        "turn_program": [
+            "add(896, 770)",
+            "852",
+            "add(896, 770), add(#0, 852)",
+            "add(896, 770), add(#0, 852), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            1666.0,
+            852.0,
+            2518.0,
+            839.33333
+        ]
+    },
+    {
+        "id": "Double_DVN/2011/page_99.pdf",
+        "turn_program": [
+            "subtract(379, 420)",
+            "subtract(379, 420), divide(#0, 420)",
+            "subtract(403, 411)",
+            "subtract(403, 411), divide(#0, 411)"
+        ],
+        "executed_answers": [
+            -41.0,
+            -0.09762,
+            -8.0,
+            -0.01946
+        ]
+    },
+    {
+        "id": "Single_CE/2014/page_32.pdf-3",
+        "turn_program": [
+            "468128",
+            "59.25",
+            "multiply(468128, 59.25)",
+            "multiply(468128, 59.25), divide(#0, const_1000000)"
+        ],
+        "executed_answers": [
+            468128.0,
+            59.25,
+            27736584.0,
+            27.73658
+        ]
+    },
+    {
+        "id": "Single_PPG/2013/page_54.pdf-2",
+        "turn_program": [
+            "add(9, 10)",
+            "add(9, 10), add(#0, 15)",
+            "add(9, 10), add(#0, 15), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            19.0,
+            34.0,
+            11.33333
+        ]
+    },
+    {
+        "id": "Double_ETR/2011/page_250.pdf",
+        "turn_program": [
+            "1357",
+            "14682",
+            "divide(1357, 14682)",
+            "674",
+            "divide(674, 14682)"
+        ],
+        "executed_answers": [
+            1357.0,
+            14682.0,
+            0.09243,
+            674.0,
+            0.04591
+        ]
+    },
+    {
+        "id": "Single_RE/2014/page_40.pdf-2",
+        "turn_program": [
+            "62.2",
+            "195",
+            "add(62.2, 195)",
+            "add(62.2, 195), add(#0, 410.0)"
+        ],
+        "executed_answers": [
+            62.2,
+            195.0,
+            257.2,
+            667.2
+        ]
+    },
+    {
+        "id": "Single_CE/2011/page_17.pdf-1",
+        "turn_program": [
+            "78",
+            "71",
+            "subtract(78, 71)",
+            "71",
+            "subtract(78, 71), divide(#0, 71)"
+        ],
+        "executed_answers": [
+            78.0,
+            71.0,
+            7.0,
+            71.0,
+            0.09859
+        ]
+    },
+    {
+        "id": "Double_RCL/2005/page_40.pdf",
+        "turn_program": [
+            "divide(225.0, 260.0)",
+            "divide(687376, 600883)",
+            "divide(687376, 600883), multiply(#0, const_100)"
+        ],
+        "executed_answers": [
+            0.86538,
+            1.14394,
+            114.39432
+        ]
+    },
+    {
+        "id": "Single_IPG/2014/page_37.pdf-1",
+        "turn_program": [
+            "add(1623.5, 1129.8)",
+            "add(1732.8, 1662.5)",
+            "add(1623.5, 1129.8), add(1732.8, 1662.5), divide(#0, #1)",
+            "add(1623.5, 1129.8), add(1732.8, 1662.5), divide(#0, #1), multiply(#2, const_100)"
+        ],
+        "executed_answers": [
+            2753.3,
+            3395.3,
+            0.81092,
+            81.09151
+        ]
+    },
+    {
+        "id": "Single_LKQ/2010/page_84.pdf-1",
+        "turn_program": [
+            "subtract(57.2, 49.0)",
+            "49.0",
+            "subtract(57.2, 49.0), divide(#0, 49.0)"
+        ],
+        "executed_answers": [
+            8.2,
+            49.0,
+            0.16735
+        ]
+    },
+    {
+        "id": "Single_CDW/2013/page_106.pdf-3",
+        "turn_program": [
+            "1.7",
+            "1.3",
+            "add(1.7, 1.3)",
+            "add(1.7, 1.3), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            1.7,
+            1.3,
+            3.0,
+            1.5
+        ]
+    },
+    {
+        "id": "Single_OKE/2012/page_91.pdf-2",
+        "turn_program": [
+            "709",
+            "845",
+            "subtract(709, 845)",
+            "845",
+            "subtract(709, 845), divide(#0, 845)"
+        ],
+        "executed_answers": [
+            709.0,
+            845.0,
+            -136.0,
+            845.0,
+            -0.16095
+        ]
+    },
+    {
+        "id": "Double_AAPL/2016/page_23.pdf",
+        "turn_program": [
+            "213",
+            "subtract(213, const_100)",
+            "subtract(213, const_100), subtract(217, const_100)",
+            "subtract(213, const_100), subtract(217, const_100), divide(#1, const_100)"
+        ],
+        "executed_answers": [
+            213.0,
+            113.0,
+            117.0,
+            1.17
+        ]
+    },
+    {
+        "id": "Single_C/2017/page_119.pdf-2",
+        "turn_program": [
+            "82.1",
+            "71.3",
+            "subtract(82.1, 71.3)",
+            "71.3",
+            "subtract(82.1, 71.3), divide(#0, 71.3)"
+        ],
+        "executed_answers": [
+            82.1,
+            71.3,
+            10.8,
+            71.3,
+            0.15147
+        ]
+    },
+    {
+        "id": "Double_CNC/2003/page_41.pdf",
+        "turn_program": [
+            "567048",
+            "395155",
+            "subtract(567048, 395155)",
+            "subtract(567048, 395155), divide(#0, 395155)"
+        ],
+        "executed_answers": [
+            567048.0,
+            395155.0,
+            171893.0,
+            0.435
+        ]
+    },
+    {
+        "id": "Single_ADI/2019/page_85.pdf-3",
+        "turn_program": [
+            "92.3",
+            "58.8",
+            "subtract(92.3, 58.8)",
+            "subtract(92.3, 58.8), divide(#0, 58.8)"
+        ],
+        "executed_answers": [
+            92.3,
+            58.8,
+            33.5,
+            0.56973
+        ]
+    },
+    {
+        "id": "Single_BKR/2017/page_123.pdf-2",
+        "turn_program": [
+            "add(1.6, 53.7)",
+            "1.6",
+            "add(1.6, 53.7), divide(1.6, #0)"
+        ],
+        "executed_answers": [
+            55.3,
+            1.6,
+            0.02893
+        ]
+    },
+    {
+        "id": "Double_BLK/2014/page_119.pdf",
+        "turn_program": [
+            "divide(5309, 4938)",
+            "divide(5309, 4938), subtract(#0, const_1)",
+            "add(753, 785)",
+            "add(753, 785), add(#0, 1134)"
+        ],
+        "executed_answers": [
+            1.07513,
+            0.07513,
+            1538.0,
+            2672.0
+        ]
+    },
+    {
+        "id": "Single_IPG/2015/page_24.pdf-1",
+        "turn_program": [
+            "multiply(2140511, 20.54)",
+            "multiply(2140511, 20.54), divide(#0, const_1000000)"
+        ],
+        "executed_answers": [
+            43966095.94,
+            43.9661
+        ]
+    },
+    {
+        "id": "Single_HII/2011/page_69.pdf-2",
+        "turn_program": [
+            "359",
+            "-88",
+            "subtract(359, -88)",
+            "528",
+            "subtract(359, -88), divide(#0, -88)"
+        ],
+        "executed_answers": [
+            359.0,
+            -88.0,
+            447.0,
+            528.0,
+            -5.07955
+        ]
+    },
+    {
+        "id": "Double_MRO/2009/page_138.pdf",
+        "turn_program": [
+            "divide(165, 909)",
+            "703",
+            "subtract(703, 164)"
+        ],
+        "executed_answers": [
+            0.18152,
+            703.0,
+            539.0
+        ]
+    },
+    {
+        "id": "Double_AWK/2015/page_81.pdf",
+        "turn_program": [
+            "50.6",
+            "49.3",
+            "subtract(50.6, 49.3)",
+            "divide(626, 450)"
+        ],
+        "executed_answers": [
+            50.6,
+            49.3,
+            1.3,
+            1.39111
+        ]
+    },
+    {
+        "id": "Single_C/2010/page_223.pdf-2",
+        "turn_program": [
+            "392",
+            "77",
+            "add(392, 77)",
+            "77",
+            "add(392, 77), divide(77, #0)"
+        ],
+        "executed_answers": [
+            392.0,
+            77.0,
+            469.0,
+            77.0,
+            0.16418
+        ]
+    },
+    {
+        "id": "Double_AAPL/2015/page_56.pdf",
+        "turn_program": [
+            "subtract(5263, 4513)",
+            "subtract(22471, 20624)"
+        ],
+        "executed_answers": [
+            750.0,
+            1847.0
+        ]
+    },
+    {
+        "id": "Single_UNP/2012/page_47.pdf-3",
+        "turn_program": [
+            "111",
+            "89",
+            "subtract(111, 89)",
+            "89",
+            "subtract(111, 89), divide(#0, 89)"
+        ],
+        "executed_answers": [
+            111.0,
+            89.0,
+            22.0,
+            89.0,
+            0.24719
+        ]
+    },
+    {
+        "id": "Single_MSI/2007/page_68.pdf-2",
+        "turn_program": [
+            "subtract(709, 1232)",
+            "subtract(709, 1232), divide(#0, 1232)"
+        ],
+        "executed_answers": [
+            -523.0,
+            -0.42451
+        ]
+    },
+    {
+        "id": "Single_ETR/2013/page_28.pdf-1",
+        "turn_program": [
+            "58.7",
+            "57.9",
+            "subtract(58.7, 57.9)",
+            "57.9",
+            "subtract(58.7, 57.9), divide(#0, 57.9)"
+        ],
+        "executed_answers": [
+            58.7,
+            57.9,
+            0.8,
+            57.9,
+            0.01382
+        ]
+    },
+    {
+        "id": "Single_IP/2009/page_72.pdf-4",
+        "turn_program": [
+            "add(663, -1269)",
+            "-1269",
+            "add(663, -1269), add(#0, 1215)"
+        ],
+        "executed_answers": [
+            -606.0,
+            -1269.0,
+            609.0
+        ]
+    },
+    {
+        "id": "Single_DISCA/2018/page_39.pdf-3",
+        "turn_program": [
+            "72.90",
+            "subtract(72.90, const_100)",
+            "subtract(72.90, const_100), divide(#0, const_100)"
+        ],
+        "executed_answers": [
+            72.9,
+            -27.1,
+            -0.271
+        ]
+    },
+    {
+        "id": "Single_JPM/2007/page_164.pdf-1",
+        "turn_program": [
+            "subtract(380, 29)",
+            "29",
+            "subtract(380, 29), divide(#0, 29)"
+        ],
+        "executed_answers": [
+            351.0,
+            29.0,
+            12.10345
+        ]
+    },
+    {
+        "id": "Single_GPN/2009/page_95.pdf-2",
+        "turn_program": [
+            "multiply(6570132, 28)",
+            "multiply(6570132, 28), divide(#0, const_1000000)"
+        ],
+        "executed_answers": [
+            183963696.0,
+            183.9637
+        ]
+    },
+    {
+        "id": "Double_HWM/2016/page_79.pdf",
+        "turn_program": [
+            "2200",
+            "1647",
+            "add(2200, 1647)",
+            "1801",
+            "298",
+            "subtract(1801, 298)"
+        ],
+        "executed_answers": [
+            2200.0,
+            1647.0,
+            3847.0,
+            1801.0,
+            298.0,
+            1503.0
+        ]
+    },
+    {
+        "id": "Single_AAPL/2011/page_38.pdf-1",
+        "turn_program": [
+            "subtract(37529, 18595)",
+            "18595",
+            "subtract(37529, 18595), divide(#0, 18595)"
+        ],
+        "executed_answers": [
+            18934.0,
+            18595.0,
+            1.01823
+        ]
+    },
+    {
+        "id": "Double_UNP/2009/page_68.pdf",
+        "turn_program": [
+            "1060",
+            "22",
+            "divide(22, 1060)",
+            "1.3",
+            "divide(22, 1060), divide(#0, 1.3)"
+        ],
+        "executed_answers": [
+            1060.0,
+            22.0,
+            0.02075,
+            1.3,
+            0.01597
+        ]
+    },
+    {
+        "id": "Double_RSG/2009/page_100.pdf",
+        "turn_program": [
+            "27.3",
+            "37.8",
+            "add(27.3, 37.8)",
+            "divide(93.1, 236.6)"
+        ],
+        "executed_answers": [
+            27.3,
+            37.8,
+            65.1,
+            0.39349
+        ]
+    },
+    {
+        "id": "Single_C/2009/page_279.pdf-3",
+        "turn_program": [
+            "subtract(18.71, 70.36)",
+            "subtract(18.71, 70.36), divide(#0, 70.36)"
+        ],
+        "executed_answers": [
+            -51.65,
+            -0.73408
+        ]
+    },
+    {
+        "id": "Single_FIS/2006/page_98.pdf-2",
+        "turn_program": [
+            "64772",
+            "57369",
+            "subtract(64772, 57369)",
+            "subtract(64772, 57369), divide(#0, 57369)"
+        ],
+        "executed_answers": [
+            64772.0,
+            57369.0,
+            7403.0,
+            0.12904
+        ]
+    },
+    {
+        "id": "Single_MA/2010/page_125.pdf-1",
+        "turn_program": [
+            "subtract(2.7, 2.5)",
+            "2.5",
+            "subtract(2.7, 2.5), divide(#0, 2.5)"
+        ],
+        "executed_answers": [
+            0.2,
+            2.5,
+            0.08
+        ]
+    },
+    {
+        "id": "Single_ETR/2008/page_336.pdf-1",
+        "turn_program": [
+            "498.8",
+            "486.9",
+            "subtract(498.8, 486.9)",
+            "subtract(498.8, 486.9), divide(6.0, #0)"
+        ],
+        "executed_answers": [
+            498.8,
+            486.9,
+            11.9,
+            0.5042
+        ]
+    },
+    {
+        "id": "Single_GIS/2019/page_75.pdf-1",
+        "turn_program": [
+            "add(10.0, 11.3)",
+            "32.0",
+            "add(10.0, 11.3), add(#0, 32.0)",
+            "add(10.0, 11.3), add(#0, 32.0), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            21.3,
+            32.0,
+            53.3,
+            17.76667
+        ]
+    },
+    {
+        "id": "Single_JPM/2016/page_73.pdf-1",
+        "turn_program": [
+            "subtract(298.31, const_100)",
+            "subtract(298.31, const_100), divide(#0, const_100)"
+        ],
+        "executed_answers": [
+            198.31,
+            1.9831
+        ]
+    },
+    {
+        "id": "Single_AAL/2018/page_13.pdf-4",
+        "turn_program": [
+            "add(9896, 7510)",
+            "add(9896, 7510), add(#0, 6180)"
+        ],
+        "executed_answers": [
+            17406.0,
+            23586.0
+        ]
+    },
+    {
+        "id": "Single_ABMD/2015/page_93.pdf-2",
+        "turn_program": [
+            "14711",
+            "-3789",
+            "add(14711, -3789)",
+            "add(14711, -3789), divide(#0, const_1000)"
+        ],
+        "executed_answers": [
+            14711.0,
+            -3789.0,
+            10922.0,
+            10.922
+        ]
+    },
+    {
+        "id": "Single_HII/2011/page_60.pdf-2",
+        "turn_program": [
+            "4.94%",
+            "5.58%",
+            "subtract(4.94%, 5.58%)",
+            "subtract(4.94%, 5.58%), divide(#0, 5.58%)"
+        ],
+        "executed_answers": [
+            0.049400000000000006,
+            0.0558,
+            -0.0064,
+            -0.1147
+        ]
+    },
+    {
+        "id": "Single_ECL/2017/page_85.pdf-2",
+        "turn_program": [
+            "multiply(400, 3.25%)",
+            "400",
+            "2.00%",
+            "multiply(400, 2.00%)",
+            "multiply(400, 3.25%), multiply(400, 2.00%), add(#0, #1)"
+        ],
+        "executed_answers": [
+            13.0,
+            400.0,
+            0.02,
+            8.0,
+            21.0
+        ]
+    },
+    {
+        "id": "Single_ETR/2011/page_341.pdf-1",
+        "turn_program": [
+            "18.9",
+            "multiply(18.9, const_1000000)",
+            "1046",
+            "multiply(18.9, const_1000000), divide(#0, 1046)"
+        ],
+        "executed_answers": [
+            18.9,
+            18900000.0,
+            1046.0,
+            18068.83365
+        ]
+    },
+    {
+        "id": "Single_HST/2007/page_62.pdf-1",
+        "turn_program": [
+            "subtract(13, 15)",
+            "15",
+            "subtract(13, 15), divide(#0, 15)"
+        ],
+        "executed_answers": [
+            -2.0,
+            15.0,
+            -0.13333
+        ]
+    },
+    {
+        "id": "Single_RE/2006/page_31.pdf-4",
+        "turn_program": [
+            "511.4",
+            "450.5",
+            "subtract(511.4, 450.5)",
+            "506.7",
+            "subtract(511.4, 450.5), divide(#0, 506.7)"
+        ],
+        "executed_answers": [
+            511.4,
+            450.5,
+            60.9,
+            506.7,
+            0.12019
+        ]
+    },
+    {
+        "id": "Double_LLY/2018/page_42.pdf",
+        "turn_program": [
+            "subtract(4678.2, 4172.0)",
+            "subtract(4678.2, 4172.0), divide(#0, 4172.0)",
+            "subtract(12529.6, 10603.4)",
+            "subtract(12529.6, 10603.4), divide(#0, 10603.4)"
+        ],
+        "executed_answers": [
+            506.2,
+            0.12133,
+            1926.2,
+            0.18166
+        ]
+    },
+    {
+        "id": "Single_AOS/2016/page_19.pdf-2",
+        "turn_program": [
+            "501.4",
+            "subtract(501.4, const_100)",
+            "subtract(501.4, const_100), divide(#0, const_100)",
+            "198.4",
+            "subtract(501.4, const_100), divide(#0, const_100), subtract(198.4, const_100)",
+            "subtract(501.4, const_100), divide(#0, const_100), subtract(198.4, const_100), divide(#2, const_100)"
+        ],
+        "executed_answers": [
+            501.4,
+            401.4,
+            4.014,
+            198.4,
+            98.4,
+            0.984
+        ]
+    },
+    {
+        "id": "Double_AMT/2005/page_105.pdf",
+        "turn_program": [
+            "divide(397691, 2157503)",
+            "add(2157503, 2418012)"
+        ],
+        "executed_answers": [
+            0.18433,
+            4575515.0
+        ]
+    },
+    {
+        "id": "Double_AMT/2010/page_115.pdf",
+        "turn_program": [
+            "divide(75354, const_1000)",
+            "34.16",
+            "divide(75354, const_1000), multiply(#0, 34.16)",
+            "divide(77509, const_1000), multiply(#0, 23.91)",
+            "divide(77509, const_1000)"
+        ],
+        "executed_answers": [
+            75.354,
+            34.16,
+            2574.09264,
+            1853.24019,
+            77.509
+        ]
+    },
+    {
+        "id": "Single_DRE/2007/page_39.pdf-4",
+        "turn_program": [
+            "subtract(45296, 41895)",
+            "41895",
+            "subtract(45296, 41895), divide(#0, 41895)"
+        ],
+        "executed_answers": [
+            3401.0,
+            41895.0,
+            0.08118
+        ]
+    },
+    {
+        "id": "Double_EMR/2017/page_54.pdf",
+        "turn_program": [
+            "5342",
+            "6624",
+            "divide(5342, 6624)",
+            "divide(746, 6624)"
+        ],
+        "executed_answers": [
+            5342.0,
+            6624.0,
+            0.80646,
+            0.11262
+        ]
+    },
+    {
+        "id": "Single_UNP/2012/page_55.pdf-2",
+        "turn_program": [
+            "multiply(1.9, const_1000)",
+            "multiply(1.9, const_1000), divide(#0, 20926)"
+        ],
+        "executed_answers": [
+            1900.0,
+            0.0908
+        ]
+    },
+    {
+        "id": "Double_HII/2011/page_100.pdf",
+        "turn_program": [
+            "1305",
+            "1859",
+            "divide(1305, 1859)",
+            "divide(83.7, 21.6)"
+        ],
+        "executed_answers": [
+            1305.0,
+            1859.0,
+            0.70199,
+            3.875
+        ]
+    },
+    {
+        "id": "Single_HII/2011/page_103.pdf-1",
+        "turn_program": [
+            "add(44, 44)",
+            "add(44, 44), add(#0, 48)",
+            "add(44, 44), add(#0, 48), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            88.0,
+            136.0,
+            45.33333
+        ]
+    },
+    {
+        "id": "Single_AAPL/2010/page_42.pdf-4",
+        "turn_program": [
+            "subtract(326, 155)",
+            "subtract(326, 155), divide(#0, 326)"
+        ],
+        "executed_answers": [
+            171.0,
+            0.52454
+        ]
+    },
+    {
+        "id": "Single_CE/2017/page_20.pdf-4",
+        "turn_program": [
+            "78",
+            "119",
+            "subtract(78, 119)",
+            "subtract(78, 119), divide(#0, 119)"
+        ],
+        "executed_answers": [
+            78.0,
+            119.0,
+            -41.0,
+            -0.34454
+        ]
+    },
+    {
+        "id": "Single_ETR/2017/page_316.pdf-1",
+        "turn_program": [
+            "add(1520.5, 1522.6)",
+            "add(1520.5, 1522.6), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            3043.1,
+            1521.55
+        ]
+    },
+    {
+        "id": "Single_PM/2017/page_38.pdf-2",
+        "turn_program": [
+            "multiply(932, const_1000000)",
+            "multiply(932, const_1000000), divide(#0, 6.0)",
+            "multiply(932, const_1000000), divide(#0, 6.0), divide(#0, #1)",
+            "multiply(932, const_1000000), divide(#0, 6.0), divide(#0, #1), divide(#2, const_1000)"
+        ],
+        "executed_answers": [
+            932000000.0,
+            155333333.33333,
+            6.0,
+            0.006
+        ]
+    },
+    {
+        "id": "Double_HWM/2016/page_53.pdf",
+        "turn_program": [
+            "subtract(1802, 1882)",
+            "subtract(1802, 1882), divide(#0, 1802)",
+            "subtract(1802, 1882), divide(#0, 1802), subtract(7%, #1)",
+            "subtract(8%, 6%)"
+        ],
+        "executed_answers": [
+            -80.0,
+            -0.0444,
+            0.1144,
+            0.02
+        ]
+    },
+    {
+        "id": "Double_FIS/2006/page_88.pdf",
+        "turn_program": [
+            "subtract(96161, 61661)",
+            "200",
+            "multiply(200, 4.75%)"
+        ],
+        "executed_answers": [
+            34500.0,
+            200.0,
+            9.5
+        ]
+    },
+    {
+        "id": "Single_C/2018/page_53.pdf-2",
+        "turn_program": [
+            "2272",
+            "5042",
+            "subtract(2272, 5042)",
+            "subtract(2272, 5042), divide(#0, 5042)"
+        ],
+        "executed_answers": [
+            2272.0,
+            5042.0,
+            -2770.0,
+            -0.54939
+        ]
+    },
+    {
+        "id": "Single_BLK/2016/page_75.pdf-3",
+        "turn_program": [
+            "subtract(4570, 4664)",
+            "subtract(4570, 4664), divide(#0, 4664)"
+        ],
+        "executed_answers": [
+            -94.0,
+            -0.02015
+        ]
+    },
+    {
+        "id": "Double_EW/2016/page_79.pdf",
+        "turn_program": [
+            "258.9",
+            "320.1",
+            "divide(258.9, 320.1)",
+            "divide(258.9, 28.1)"
+        ],
+        "executed_answers": [
+            258.9,
+            320.1,
+            0.80881,
+            9.21352
+        ]
+    },
+    {
+        "id": "Single_AAPL/2012/page_64.pdf-2",
+        "turn_program": [
+            "2062",
+            "1375",
+            "subtract(2062, 1375)",
+            "2062",
+            "subtract(2062, 1375), divide(#0, 2062)"
+        ],
+        "executed_answers": [
+            2062.0,
+            1375.0,
+            687.0,
+            2062.0,
+            0.33317
+        ]
+    },
+    {
+        "id": "Single_BLK/2016/page_35.pdf-4",
+        "turn_program": [
+            "subtract(395007, 376336)",
+            "376336",
+            "subtract(395007, 376336), divide(#0, 376336)"
+        ],
+        "executed_answers": [
+            18671.0,
+            376336.0,
+            0.04961
+        ]
+    },
+    {
+        "id": "Single_CAG/2007/page_73.pdf-1",
+        "turn_program": [
+            "80.8",
+            "82.8",
+            "add(80.8, 82.8)",
+            "add(80.8, 82.8), add(#0, -55.5)"
+        ],
+        "executed_answers": [
+            80.8,
+            82.8,
+            163.6,
+            108.1
+        ]
+    },
+    {
+        "id": "Single_ETR/2004/page_185.pdf-3",
+        "turn_program": [
+            "subtract(1149.8, 1110.1)",
+            "subtract(1149.8, 1110.1), divide(#0, 1110.1)"
+        ],
+        "executed_answers": [
+            39.7,
+            0.03576
+        ]
+    },
+    {
+        "id": "Single_ORLY/2018/page_30.pdf-1",
+        "turn_program": [
+            "subtract(187, 100)",
+            "subtract(187, 100), divide(#0, 100)"
+        ],
+        "executed_answers": [
+            87.0,
+            0.87
+        ]
+    },
+    {
+        "id": "Single_MRO/2014/page_18.pdf-2",
+        "turn_program": [
+            "subtract(1652, 2285)",
+            "2285",
+            "subtract(1652, 2285), divide(#0, 2285)"
+        ],
+        "executed_answers": [
+            -633.0,
+            2285.0,
+            -0.27702
+        ]
+    },
+    {
+        "id": "Single_UPS/2015/page_35.pdf-3",
+        "turn_program": [
+            "subtract(160.61, const_100)",
+            "subtract(160.61, const_100), divide(#0, const_100)",
+            "180.67",
+            "subtract(160.61, const_100), divide(#0, const_100), subtract(180.67, const_100)",
+            "subtract(160.61, const_100), divide(#0, const_100), subtract(180.67, const_100), divide(#2, const_100)",
+            "subtract(160.61, const_100), divide(#0, const_100), subtract(180.67, const_100), divide(#2, const_100), subtract(#1, #3)"
+        ],
+        "executed_answers": [
+            60.61,
+            0.6061,
+            180.67,
+            80.67,
+            0.8067,
+            -0.2006
+        ]
+    },
+    {
+        "id": "Single_RSG/2010/page_132.pdf-1",
+        "turn_program": [
+            "subtract(222.8, 242.2)",
+            "subtract(222.8, 242.2), divide(#0, 242.2)"
+        ],
+        "executed_answers": [
+            -19.4,
+            -0.0801
+        ]
+    },
+    {
+        "id": "Single_JPM/2010/page_236.pdf-1",
+        "turn_program": [
+            "19097",
+            "25544",
+            "subtract(19097, 25544)",
+            "subtract(19097, 25544), divide(#0, 25544)"
+        ],
+        "executed_answers": [
+            19097.0,
+            25544.0,
+            -6447.0,
+            -0.25239
+        ]
+    },
+    {
+        "id": "Double_ADI/2011/page_81.pdf",
+        "turn_program": [
+            "divide(9223, 26410)",
+            "subtract(9223, 6850)"
+        ],
+        "executed_answers": [
+            0.34922,
+            2373.0
+        ]
+    },
+    {
+        "id": "Single_MRO/2018/page_93.pdf-1",
+        "turn_program": [
+            "19.60",
+            "21.51",
+            "subtract(19.60, 21.51)",
+            "subtract(19.60, 21.51), divide(#0, 21.51)"
+        ],
+        "executed_answers": [
+            19.6,
+            21.51,
+            -1.91,
+            -0.0888
+        ]
+    },
+    {
+        "id": "Double_FRT/2004/page_53.pdf",
+        "turn_program": [
+            "divide(-4493, 35.0)",
+            "divide(101.7, 154.3)"
+        ],
+        "executed_answers": [
+            -128.37143,
+            0.65911
+        ]
+    },
+    {
+        "id": "Double_INTC/2013/page_33.pdf",
+        "turn_program": [
+            "subtract(13834, 13483)",
+            "subtract(13834, 13483), divide(#0, 13483)",
+            "divide(240, 13834)"
+        ],
+        "executed_answers": [
+            351.0,
+            0.02603,
+            0.01735
+        ]
+    },
+    {
+        "id": "Single_AWK/2015/page_117.pdf-1",
+        "turn_program": [
+            "subtract(62.10, 40.13)",
+            "40.13",
+            "subtract(62.10, 40.13), divide(#0, 40.13)"
+        ],
+        "executed_answers": [
+            21.97,
+            40.13,
+            0.54747
+        ]
+    },
+    {
+        "id": "Single_AWK/2015/page_109.pdf-2",
+        "turn_program": [
+            "19",
+            "26",
+            "subtract(19, 26)",
+            "26",
+            "subtract(19, 26), divide(#0, 26)"
+        ],
+        "executed_answers": [
+            19.0,
+            26.0,
+            -7.0,
+            26.0,
+            -0.26923
+        ]
+    },
+    {
+        "id": "Single_HII/2017/page_104.pdf-1",
+        "turn_program": [
+            "subtract(15, 19)",
+            "subtract(15, 19), divide(#0, 19)"
+        ],
+        "executed_answers": [
+            -4.0,
+            -0.21053
+        ]
+    },
+    {
+        "id": "Single_PPG/2013/page_54.pdf-4",
+        "turn_program": [
+            "85",
+            "82",
+            "subtract(85, 82)",
+            "82",
+            "subtract(85, 82), divide(#0, 82)"
+        ],
+        "executed_answers": [
+            85.0,
+            82.0,
+            3.0,
+            82.0,
+            0.03659
+        ]
+    },
+    {
+        "id": "Single_CAT/2017/page_103.pdf-4",
+        "turn_program": [
+            "subtract(34, 20)",
+            "20",
+            "subtract(34, 20), divide(#0, 20)"
+        ],
+        "executed_answers": [
+            14.0,
+            20.0,
+            0.7
+        ]
+    },
+    {
+        "id": "Single_AMT/2015/page_58.pdf-3",
+        "turn_program": [
+            "add(11595, 2330)",
+            "add(11595, 2330), add(#0, 4910)",
+            "add(11595, 2330), add(#0, 4910), add(#1, 6535)"
+        ],
+        "executed_answers": [
+            13925.0,
+            18835.0,
+            25370.0
+        ]
+    },
+    {
+        "id": "Single_APD/2014/page_71.pdf-1",
+        "turn_program": [
+            "subtract(8.5, 52.3)",
+            "52.3",
+            "subtract(8.5, 52.3), divide(#0, 52.3)"
+        ],
+        "executed_answers": [
+            -43.8,
+            52.3,
+            -0.83748
+        ]
+    },
+    {
+        "id": "Single_MMM/2007/page_36.pdf-2",
+        "turn_program": [
+            "subtract(4.476, 1.623)",
+            "1.623",
+            "subtract(4.476, 1.623), divide(#0, 1.623)"
+        ],
+        "executed_answers": [
+            2.853,
+            1.623,
+            1.75786
+        ]
+    },
+    {
+        "id": "Single_ETR/2016/page_403.pdf-4",
+        "turn_program": [
+            "14215",
+            "15794",
+            "subtract(14215, 15794)",
+            "15794",
+            "subtract(14215, 15794), divide(#0, 15794)"
+        ],
+        "executed_answers": [
+            14215.0,
+            15794.0,
+            -1579.0,
+            15794.0,
+            -0.09997
+        ]
+    },
+    {
+        "id": "Single_HII/2011/page_114.pdf-3",
+        "turn_program": [
+            "2.9",
+            "3.6",
+            "subtract(2.9, 3.6)",
+            "3.6",
+            "subtract(2.9, 3.6), divide(#0, 3.6)"
+        ],
+        "executed_answers": [
+            2.9,
+            3.6,
+            -0.7,
+            3.6,
+            -0.19444
+        ]
+    },
+    {
+        "id": "Single_DISH/2002/page_94.pdf-1",
+        "turn_program": [
+            "16",
+            "14",
+            "subtract(16, 14)",
+            "subtract(16, 14), divide(#0, 14)"
+        ],
+        "executed_answers": [
+            16.0,
+            14.0,
+            2.0,
+            0.14286
+        ]
+    },
+    {
+        "id": "Single_MO/2014/page_11.pdf-4",
+        "turn_program": [
+            "13.4",
+            "12.2",
+            "subtract(13.4, 12.2)",
+            "subtract(13.4, 12.2), divide(#0, 12.2)"
+        ],
+        "executed_answers": [
+            13.4,
+            12.2,
+            1.2,
+            0.09836
+        ]
+    },
+    {
+        "id": "Double_EOG/2017/page_85.pdf",
+        "turn_program": [
+            "275305",
+            "252030",
+            "divide(275305, 252030)",
+            "divide(275305, 252030), subtract(#0, const_1)",
+            "divide(475, 388)",
+            "divide(475, 388), subtract(#0, const_1)"
+        ],
+        "executed_answers": [
+            275305.0,
+            252030.0,
+            1.09235,
+            0.09235,
+            1.22423,
+            0.22423
+        ]
+    },
+    {
+        "id": "Single_MAA/2017/page_89.pdf-1",
+        "turn_program": [
+            "divide(12.2, 6.9)",
+            "divide(12.2, 6.9), subtract(#0, const_1)"
+        ],
+        "executed_answers": [
+            1.76812,
+            0.76812
+        ]
+    },
+    {
+        "id": "Single_ETR/2007/page_36.pdf-2",
+        "turn_program": [
+            "57.6",
+            "52.3",
+            "subtract(57.6, 52.3)",
+            "subtract(57.6, 52.3), divide(#0, 52.3)"
+        ],
+        "executed_answers": [
+            57.6,
+            52.3,
+            5.3,
+            0.10134
+        ]
+    },
+    {
+        "id": "Double_PNC/2009/page_46.pdf",
+        "turn_program": [
+            "multiply(50, 2%)",
+            "subtract(2%, 3%)"
+        ],
+        "executed_answers": [
+            1.0,
+            -0.01
+        ]
+    },
+    {
+        "id": "Double_GS/2016/page_183.pdf",
+        "turn_program": [
+            "add(2.10, 2.86)",
+            "add(244, 249)",
+            "add(244, 249), add(#0, 309)"
+        ],
+        "executed_answers": [
+            4.96,
+            493.0,
+            802.0
+        ]
+    },
+    {
+        "id": "Double_AES/2010/page_133.pdf",
+        "turn_program": [
+            "divide(1246, 2404)",
+            "divide(272, 2404)"
+        ],
+        "executed_answers": [
+            0.5183,
+            0.11314
+        ]
+    },
+    {
+        "id": "Single_JPM/2015/page_77.pdf-5",
+        "turn_program": [
+            "subtract(180.67, const_100)",
+            "subtract(180.67, const_100), divide(#0, const_100)"
+        ],
+        "executed_answers": [
+            80.67,
+            0.8067
+        ]
+    },
+    {
+        "id": "Double_HOLX/2011/page_122.pdf",
+        "turn_program": [
+            "divide(84751, 114251)",
+            "divide(29500, 114251)"
+        ],
+        "executed_answers": [
+            0.7418,
+            0.2582
+        ]
+    },
+    {
+        "id": "Single_PPG/2012/page_47.pdf-2",
+        "turn_program": [
+            "119",
+            "96",
+            "add(119, 96)",
+            "add(119, 96), multiply(#0, const_1000000)"
+        ],
+        "executed_answers": [
+            119.0,
+            96.0,
+            215.0,
+            215000000.0
+        ]
+    },
+    {
+        "id": "Single_TROW/2010/page_22.pdf-1",
+        "turn_program": [
+            "subtract(2.0, 5.6)",
+            "5.6",
+            "subtract(2.0, 5.6), divide(#0, 5.6)"
+        ],
+        "executed_answers": [
+            -3.6,
+            5.6,
+            -0.64286
+        ]
+    },
+    {
+        "id": "Single_AMT/2014/page_157.pdf-2",
+        "turn_program": [
+            "13.42",
+            "13.64",
+            "subtract(13.42, 13.64)",
+            "13.64",
+            "subtract(13.42, 13.64), divide(#0, 13.64)"
+        ],
+        "executed_answers": [
+            13.42,
+            13.64,
+            -0.22,
+            13.64,
+            -0.01613
+        ]
+    },
+    {
+        "id": "Single_AAP/2011/page_63.pdf-3",
+        "turn_program": [
+            "subtract(2043158, 1863870)",
+            "subtract(2043158, 1863870), divide(#0, 1863870)"
+        ],
+        "executed_answers": [
+            179288.0,
+            0.09619
+        ]
+    },
+    {
+        "id": "Single_EXPD/2017/page_30.pdf-1",
+        "turn_program": [
+            "subtract(176.08, const_100)",
+            "subtract(176.08, const_100), subtract(208.14, const_100)",
+            "subtract(176.08, const_100), divide(#0, const_100)",
+            "subtract(176.08, const_100), divide(#0, const_100), subtract(208.14, const_100), divide(#2, const_100)",
+            "subtract(176.08, const_100), divide(#0, const_100), subtract(208.14, const_100), divide(#2, const_100), subtract(#1, #3)"
+        ],
+        "executed_answers": [
+            76.08,
+            108.14,
+            0.7608,
+            1.0814,
+            -0.3206
+        ]
+    },
+    {
+        "id": "Single_APTV/2016/page_47.pdf-1",
+        "turn_program": [
+            "0.29",
+            "0.25",
+            "subtract(0.29, 0.25)",
+            "0.25",
+            "subtract(0.29, 0.25), divide(#0, 0.25)"
+        ],
+        "executed_answers": [
+            0.29,
+            0.25,
+            0.04,
+            0.25,
+            0.16
+        ]
+    },
+    {
+        "id": "Double_DRE/2008/page_29.pdf",
+        "turn_program": [
+            "divide(28205, 74814)",
+            "1.93",
+            "1.91",
+            "add(1.93, 1.91)",
+            "add(1.93, 1.91), add(#0, 1.89)",
+            "add(1.93, 1.91), add(#0, 1.89), divide(#1, const_3)"
+        ],
+        "executed_answers": [
+            0.377,
+            1.93,
+            1.91,
+            3.84,
+            5.73,
+            1.91
+        ]
+    },
+    {
+        "id": "Single_UA/2009/page_63.pdf-1",
+        "turn_program": [
+            "155596",
+            "187072",
+            "subtract(155596, 187072)",
+            "subtract(155596, 187072), divide(#0, 187072)"
+        ],
+        "executed_answers": [
+            155596.0,
+            187072.0,
+            -31476.0,
+            -0.16826
+        ]
+    },
+    {
+        "id": "Single_ETR/2017/page_379.pdf-3",
+        "turn_program": [
+            "add(10595, 25930)",
+            "add(10595, 25930), add(#0, 644)"
+        ],
+        "executed_answers": [
+            36525.0,
+            37169.0
+        ]
+    },
+    {
+        "id": "Single_AMT/2007/page_32.pdf-1",
+        "turn_program": [
+            "38.44",
+            "38.74",
+            "subtract(38.44, 38.74)",
+            "38.74",
+            "subtract(38.44, 38.74), divide(#0, 38.74)"
+        ],
+        "executed_answers": [
+            38.44,
+            38.74,
+            -0.3,
+            38.74,
+            -0.00774
+        ]
+    },
+    {
+        "id": "Single_ETR/2016/page_396.pdf-4",
+        "turn_program": [
+            "317.2",
+            "293.9",
+            "subtract(317.2, 293.9)",
+            "293.9",
+            "subtract(317.2, 293.9), divide(#0, 293.9)"
+        ],
+        "executed_answers": [
+            317.2,
+            293.9,
+            23.3,
+            293.9,
+            0.07928
+        ]
+    },
+    {
+        "id": "Single_ADI/2011/page_50.pdf-1",
+        "turn_program": [
+            "subtract(2472, 7256)",
+            "subtract(2472, 7256), divide(#0, 7256)"
+        ],
+        "executed_answers": [
+            -4784.0,
+            -0.65932
+        ]
+    },
+    {
+        "id": "Single_AMAT/2015/page_14.pdf-2",
+        "turn_program": [
+            "525",
+            "593",
+            "subtract(525, 593)",
+            "subtract(525, 593), divide(#0, 593)"
+        ],
+        "executed_answers": [
+            525.0,
+            593.0,
+            -68.0,
+            -0.11467
+        ]
+    },
+    {
+        "id": "Single_C/2018/page_288.pdf-1",
+        "turn_program": [
+            "subtract(556, 426)",
+            "426",
+            "subtract(556, 426), divide(#0, 426)"
+        ],
+        "executed_answers": [
+            130.0,
+            426.0,
+            0.30516
+        ]
+    },
+    {
+        "id": "Single_BLL/2010/page_39.pdf-1",
+        "turn_program": [
+            "1.96",
+            "1.74",
+            "subtract(1.96, 1.74)",
+            "1.74",
+            "subtract(1.96, 1.74), divide(#0, 1.74)"
+        ],
+        "executed_answers": [
+            1.96,
+            1.74,
+            0.22,
+            1.74,
+            0.12644
+        ]
+    },
+    {
+        "id": "Single_GS/2013/page_97.pdf-3",
+        "turn_program": [
+            "add(4, 3)",
+            "add(4, 3), divide(#0, const_2)"
+        ],
+        "executed_answers": [
+            7.0,
+            3.5
+        ]
+    }
+]
