@@ -4,6 +4,14 @@
 
 This project fine-tunes and evaluates a conversational question-answering system on the ConvFinQA dataset to answer financial questions based on tables and text.
 
+## Video Demos
+
+Video demonstrations of the application using CLI or Streamlit can be found in the `demos` folder.
+
+## System Design and Evaluation
+
+A detailed explanation of the system design and performance can be found in `REPORT.pdf`.
+
 ## Project Structure
 
 The project is organized with a clear separation of concerns, making it modular and maintainable.
@@ -128,7 +136,9 @@ To use the interactive CLI, you must first load the financial data into your Mon
       ```bash
       uv run main chat "Single_JKHY/2009/page_28.pdf-3"
       ```
-      - However, note that this defaults to using my fine-tuned model as specified in `src/config.py`, which can only be accessed using my OpenAI api key.
+      - The final argument (`"Single_JKHY/2009/page_28.pdf-3"`) is the `record_id` for a specific financial document in the dataset. You can find `record_id` examples in the `data/raw/convfinqa_dataset.json` file.
+
+      - **Note on Model Access:** The CLI defaults to using a specific fine-tuned model that is not public. To use your own model, you must update the `FINETUNED_MODEL_NAME` variable in `src/config.py` with your own model name from OpenAI.
 
 ### Interactive Demo (Streamlit App)
 
