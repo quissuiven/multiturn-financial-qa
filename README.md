@@ -140,7 +140,7 @@ APP_PASSWORD="a_password_for_the_local_streamlit_app"
 You can run the app by using the following command:
 ```bash
 streamlit run app/app.py
-
+```
 
 ---
 
